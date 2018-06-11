@@ -18,7 +18,7 @@ class MagicShapePath private constructor(val startX: Float, val startY: Float, v
   private val circles: ArrayList<CircleShape> = ArrayList()
 
   companion object {
-    fun create(startX: Float, startY: Float, endX: Float, endY: Float) = MagicShapePath(startX, startY, endX, endY)
+    public fun create(startX: Float, startY: Float, endX: Float, endY: Float) = MagicShapePath(startX, startY, endX, endY)
   }
 
   fun applyOn(shapePath: ShapePath) {

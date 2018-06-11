@@ -4,8 +4,8 @@ apply from: 'keystore.gradle'
 
 ext {
   groupId = 'com.tbuonomo' // package name of the project
-  artifactId = "magic-shape-path" // module name of the library
-  libVersion = "1.0.0"
+  artifactId = "magicshapepath" // module name of the library
+  libVersion = "1.0.0-alpha1"
 }
 version = libVersion
 group = groupId
