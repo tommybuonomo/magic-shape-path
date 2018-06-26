@@ -38,7 +38,5 @@ local.properties
 /*/.idea
 *.iml
 
-#Android Studio
-/captures
-/*/keystore.properties
-keystore.properties
+# Bintray
+keystore.gradle

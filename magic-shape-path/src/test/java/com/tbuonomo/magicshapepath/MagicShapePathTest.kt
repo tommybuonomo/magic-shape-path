@@ -17,7 +17,7 @@ class MagicShapePathTest {
   fun numberOfOperationsCorrectSimpleLine() {
     val magicShapePath = MagicShapePath.create(0f, 0f, 1f, 1f)
     val toShapePath = magicShapePath.toShapePath()
-    var operations: ArrayList<ShapePath.PathOperation> = getPathOperations(toShapePath)
+    val operations: ArrayList<ShapePath.PathOperation> = getPathOperations(toShapePath)
 
     Assert.assertEquals(2, operations.size)
     Assert.assertTrue(operations[0] is PathLineOperation)
